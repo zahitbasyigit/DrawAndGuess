@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultipleActivityProject</string>
+    <string name="password">Password</string>
+    <string name="rememberMe">Remember Me?</string>
+    <string name="loginFail">Login Failed</string>
+    <string name="registerFail">Register Failed</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="back">Back!</string>
+    <string name="registerPWMatchFail">Passwords dont match!</string>
+    <string name="join">Join</string>
+    <string name="newLobby">New Lobby</string>
+    <string name="lobbyName">Lobby Name</string>
+    <string name="players">Players</string>
+    <string name="playersSemiColon">Players:</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="leave">Leave</string>
+    <string name="start">Start</string>
+    <string name="creatingNewLobby">Creating New Lobby!</string>
+    <string name="lobbyNameSemiColon">Lobby Name:</string>
+    <string name="numberOfPlayers">Number of Players:</string>
+    <string name="create">Create!</string>
+    <string name="currentLanguage">Current Language:</string>
+    <string name="calibrateLanguage">Calibrate Language</string>
+    <string name="word">Word:</string>
+    <string name="share">Share</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="profilePhoto">Profile Photo</string>
+    <string name="profileMessage">Profile Message</string>
+    <string name="playAudio">Play</string>
+    <string name="recordAudio">Record</string>
+    <string name="stop">Stop</string>
+    <string name="newPhoto">Take New Photo</string>
+    <string name="existingPhoto">Select From Gallery</string>
+    <string name="finish">Finish</string>
+    <string name="gameOver">Game Over!</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultipleActivityProject</string>
+    <string name="facebook_app_id">2032421503693961</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>

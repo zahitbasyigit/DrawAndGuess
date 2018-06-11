@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#064F72</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButton">#B49801</color>
+    <color name="guessInputTextColor">#145fac</color>
+    <color name="colorGreen">#00ff00</color>
+    <color name="background_light">#322B03</color>
+    <color name="button_text_color">#322b03</color>
+    <color name="primary_text_color">#FFFFFF</color>
+</resources>

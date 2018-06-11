@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorPrimary">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/editedImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/com_facebook_auth_dialog_header_background" />
+
+        <Button
+            android:id="@+id/cropImageButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorButton"
+            android:onClick="onClick"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="Crop"
+            android:textColor="@color/button_text_color"
+            app:layout_constraintEnd_toStartOf="@+id/blurImageButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editedImageView" />
+
+        <Button
+            android:id="@+id/blurImageButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorButton"
+            android:onClick="onClick"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="Blur"
+            android:textColor="@color/button_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/cropImageButton"
+            app:layout_constraintTop_toBottomOf="@+id/editedImageView" />
+
+        <Button
+            android:id="@+id/grayScaleImageButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorButton"
+            android:onClick="onClick"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="GrayScale"
+            android:textColor="@color/button_text_color"
+            app:layout_constraintEnd_toStartOf="@+id/editPhotoBackButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cropImageButton" />
+
+        <Button
+            android:id="@+id/editPhotoBackButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorButton"
+            android:onClick="onClick"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="BACK"
+            android:textColor="@color/button_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/grayScaleImageButton"
+            app:layout_constraintTop_toBottomOf="@+id/blurImageButton" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

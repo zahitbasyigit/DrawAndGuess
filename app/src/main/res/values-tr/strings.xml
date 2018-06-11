@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultipleActivityProject</string>
+    <string name="password">Şifre</string>
+    <string name="rememberMe">Beni Hatırla?</string>
+    <string name="loginFail">Giriş Başarısız</string>
+    <string name="registerFail">Kayıt Başarısız</string>
+    <string name="login">Giriş</string>
+    <string name="register">Kayıt</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="confirmpassword">Şifre Onayla</string>
+    <string name="back">Geri!</string>
+    <string name="registerPWMatchFail">Şifreler Uyumsuz!</string>
+    <string name="join">Katıl</string>
+    <string name="newLobby">Yeni Oda</string>
+    <string name="lobbyName">Oda Adı</string>
+    <string name="players">Oyuncular</string>
+    <string name="playersSemiColon">Oyuncular:</string>
+    <string name="logout">Çıkış</string>
+    <string name="welcome">Hoşgeldin</string>
+    <string name="leave">Ayrıl</string>
+    <string name="start">Başlat</string>
+    <string name="creatingNewLobby">Yeni Oda Yaratılıyor!</string>
+    <string name="lobbyNameSemiColon">Oda Adı:</string>
+    <string name="numberOfPlayers">Oyuncu Sayısı:</string>
+    <string name="create">Yarat!</string>
+    <string name="currentLanguage">Şu anki dil:</string>
+    <string name="calibrateLanguage">Dil Kalibre Et</string>
+    <string name="word">Kelime:</string>
+    <string name="share">Paylaş</string>
+    <string name="profile">Profil</string>
+    <string name="edit">Düzenle</string>
+    <string name="profilePhoto">Profil Fotoğrafı</string>
+    <string name="profileMessage">Profil Mesajı</string>
+    <string name="playAudio">Oynat</string>
+    <string name="recordAudio">Kaydet</string>
+    <string name="stop">Durdur</string>
+    <string name="newPhoto">Yeni Fotoğraf Çek</string>
+    <string name="existingPhoto">Galeriden Seç</string>
+    <string name="finish">Bitir</string>
+    <string name="gameOver">Oyun Bitti!</string>
+</resources>
